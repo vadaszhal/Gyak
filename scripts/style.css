@@ -1,0 +1,41 @@
+body {
+    background-color: #99f;
+}
+
+
+
+/* New container to hold form and image side by side */
+#form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 250px; /* Adjust if needed or remove for full responsiveness */
+}
+
+/*Ettől lesz szép széles*/
+#contactForm input {
+    width: 35%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*Behúzás*/
+#contactForm {
+    margin-left: 0em;
+}
+/* balra dobozban*/
+#contactForm >div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+/*Ettől fut szépen függőben*/
+#contactForm label {
+    width: 80px;
+    margin-right: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}

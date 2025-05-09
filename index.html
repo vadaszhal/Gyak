@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jelentkezés</title>
+    <link rel="stylesheet" href="scripts/style.css">
 </head>
 <body>
+    
+    <main>
+        <h1 style="text-align: center;">Jelentkezés </h1>
+        
+        <div id="form-container">
+            <form id="contactForm">
+                <h2>Regisztráció</h2>
+                <div>
+                    <label for="name">Név:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+               
+                <button type="submit">Jelentkezés</button>
+                <div id="errorMessage" style="color: red; margin-top: 1em;"></div>
+                <div id="successMessage" style="color: green; margin-top: 1em;"></div> 
+            </form>
+            <img src="image/kep.jpg" alt="">
+        </div>
+    </main>
     
 </body>
 </html>
