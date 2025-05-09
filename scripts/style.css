@@ -15,8 +15,8 @@ body {
 
 /*Ettől lesz szép széles*/
 #contactForm input {
-    width: 35%;
-    padding: 5px;
+    width: 60%;
+   
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -35,7 +35,10 @@ body {
 /*Ettől fut szépen függőben*/
 #contactForm label {
     width: 80px;
-    margin-right: 12px;
+    
     font-weight: bold;
     white-space: nowrap;
+}
+#contactForm >button{
+    margin-left: 10em;
 }
